@@ -1,9 +1,9 @@
 import string
-from art import logo
+from art import cc_logo
 
 repeat = 'yes'
 alphabet_list = list(string.ascii_lowercase)
-print(logo)
+print(cc_logo)
 def caeser_cypher( msg, shift_no, selection):
     cypher_text=''
     if selection == 'decode':
