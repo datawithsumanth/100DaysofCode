@@ -40,7 +40,7 @@ def calculator():
         op_selected = operations[operation]
         result = op_selected(first_number, second_number)
         print(f"{first_number} {operation} {second_number} = {result}")
-        repeat = input(f"Type 'y' to continue calculating with {result}, or type 'n tp start a new calculation\n")
+        repeat = input(f"Type 'y' to continue calculating with {result}, or type 'n' to start a new calculation\n")
         if repeat == 'y':
             first_number = result
         else:
